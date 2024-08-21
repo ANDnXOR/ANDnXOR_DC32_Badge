@@ -97,28 +97,8 @@ The general process one will follow:
 
 Instructions for physical verification(s) are on the specific challenge group of the CTFd site.
 
-Plug the badge in to a Linux computer via USB then...
-```
-$ picocom /dev/ttyACM(X+1)
-```
-
-Or Plug the badge in to a MacOS computer via USB then...
-```
-$ picocom /dev/tty.usbmodem1*3
-```
-
-**NOTE: If backspace is misbehaving add `--omap bsdel` option to picocom**
-
-Or Plug the badge in to a Windows computer via USB then...
-
-(we highly recommend just run an Ubuntu Virtual Machine at this point and not deal with COM devices)
-
-Once you are logged in press the ANY key...follow the instructions for activation on CTFd (or Github)...then figure it out....and have fun!
-
 # Troubleshooting #
-Usually the main issue people have when they first try and connect to hardware over serial, is that the default permissions do not belong to them in the OS; e.g. you try and launch picocom (or any other serial program and DENIED). Add yourself to the dialout group. If you do not know what that means, visit: https://gprivate.com/65a4f
-
-Otherwise if you are having issues with the badge for any reason, try the #troubleshooting channel of our Discord. You could also swing by the contest area.
+If you are having issues with the badge for any reason, try the #dc32 channel of our Discord. You could also swing by the contest area.
 
 Given the structure of our discord channels, this is what is meant for what:
 
