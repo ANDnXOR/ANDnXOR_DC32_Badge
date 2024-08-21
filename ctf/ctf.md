@@ -147,9 +147,7 @@ The digits 16822 also carry weight, yet Morse, a maestro of sounds, struggles to
 
 **How To**
 
-TLDR: Clues point you to HardHat Brigade and Packet Hacking Village, hhb: listen at the beginning of every hour for the chicken morse code, part 1, at PHV listen between sets for morse code part 2. Combine them to get the whole flag. Put in code 16822 (PHV) in sn4ck3y for an NFT that directs folks to phv.doomguy.org with an additional riddle and the final flag.
-
-Some OSINT/searching of Flynn Taggart is needed to unlock the zip from the clues in the comms. The fandom wiki lists Flynn's birthplace as Colorado (CO), and the Collector's Edition Cassette Tape from Doom Eternal has "Taggart93". Combined COTaggart93 to unlock the zip file.
+TLDR: Clues point you to HardHat Brigade and Packet Hacking Village. Put in code 16822 (PHV) in sn4ck3y for an NFT that directs folks to phv.doomguy.org with an additional riddle. HHB: original intention was to listen at the beginning of every hour for the chicken morse code, part 1. Unfortunately the rPi broke, and this was moved to just a downloadable wav/mp3 from CTFd. At PHV listen between sets for morse code part 2. Combine them to get the whole flag.
 
 File: chicken_c.mp3
 
@@ -167,7 +165,9 @@ File: taggart.pcap
 
 **How To**
 
-TLDR: Inspect the pcap traffic between Flynn and Arlene, and Arlene and the website. The communication has a zip file that needs to be cracked. Inside the zip is ssl debug info for decrypting the TLS website packets. Some OSINT/searching of Flynn Taggart is needed to unlock the zip from the clues in the comms.
+Infernal Packets: Fly’s Hellish Dilemma
+
+TLDR: Inspect the pcap traffic between Flynn and Arlene, and Arlene and the website. The communication has a zip file that needs to be cracked. Inside the zip is ssl debug info for decrypting the TLS website packets. Some OSINT/searching of Flynn Taggart is needed to unlock the zip from the clues in the comms. The fandom wiki lists Flynn's birthplace as Colorado (CO), and the Collector's Edition Cassette Tape from Doom Eternal has "Taggart93". Combined COTaggart93 to unlock the zip file.
 
 **flag{NetworkingtoFindFriends}**
 
