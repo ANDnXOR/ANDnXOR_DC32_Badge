@@ -1,0 +1,3 @@
+/Users/zapp/dev/dc32_nibbler/rp2040-doom/rp2040-build/pioasm/CMakeFiles/pioasm.dir
+/Users/zapp/dev/dc32_nibbler/rp2040-doom/rp2040-build/pioasm/CMakeFiles/edit_cache.dir
+/Users/zapp/dev/dc32_nibbler/rp2040-doom/rp2040-build/pioasm/CMakeFiles/rebuild_cache.dir
